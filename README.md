@@ -105,6 +105,8 @@ pip install --upgrade tensorflow-gpu
 
 The example below helps avoid conflict between miniconda and ROS-
 ```
+while :
+do
 read -p "Do you want to source ROS in this workspace (y/n): " input_choice
 
 if [ "$input_choice" = "y" ]
